@@ -28,10 +28,11 @@ body {
   .app {
     display: flex !important;
     margin: 10px 0;
+    padding-top: 20rem;
     flex-direction: column;
   }
   .sidebar {
-    margin-bottom: 20px;
+    margin: 0rem 0px 20px 0;
   }
 }
 
@@ -40,7 +41,7 @@ body {
   display: grid;
   grid-template-columns: 34rem 44rem;
   column-gap: 4rem;
-  align-items: start;
+  align-items: center;
 }
 
 .button {
