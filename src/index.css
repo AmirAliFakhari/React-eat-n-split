@@ -24,6 +24,16 @@ body {
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 1024px) {
+  .app {
+    display: flex !important;
+    margin: 10px 0;
+    flex-direction: column;
+  }
+  .sidebar {
+    margin-bottom: 20px;
+  }
+}
 
 .app {
   min-height: 66vh;
